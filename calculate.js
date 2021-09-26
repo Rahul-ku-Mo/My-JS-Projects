@@ -184,14 +184,31 @@ num9.addEventListener('click',function(){
         }  
     }
 })
+
+numdel.addEventListener('click', function(){
+    if(signCount.textContent === ''){
+        if(count1.textContent === ""){
+            document.querySelector(".numone").textContent = ".";
+        }else{
+            document.querySelector(".numone").textContent += ".";
+        }  
+    }
+    else{
+        if(count2.textContent === ""){
+            document.querySelector(".numtwo").textContent = ".";
+        }else{
+            document.querySelector(".numtwo").textContent += ".";
+        }  
+    }
+})
 //eventlistens to clear buttons
 clearAll.addEventListener('click',function(){
-    if(count1.textContent != "" || count2.textContent != ""){
+    
         document.querySelector(".numone").textContent = "";
         document.querySelector(".numtwo").textContent = "";
         document.querySelector(".sign").textContent = '';
         document.querySelector(".answer").textContent = '';
-    }
+    
 })
 clear.addEventListener('click',function(){
 
