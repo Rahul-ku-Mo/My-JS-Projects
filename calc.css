@@ -48,10 +48,10 @@ h1 {
 
 .user-input {
   position: relative;
-  width: 25vw;
+  
   display: flex;
   flex-direction: column;
-  left: 38%;
+  
 }
 .input1,
 .input2,
