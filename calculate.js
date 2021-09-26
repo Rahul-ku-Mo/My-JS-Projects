@@ -218,7 +218,7 @@ clear.addEventListener('click',function(){
     if (signCount.textContent === "") {
         document.querySelector(".numone").textContent = name ;
     }
-     if (signCount.textContent === "+"|| signCount.textContent ==="-" || signCount.textContent ==="/" || signCount.textContent ==="x"){
+    else if (signCount.textContent === "+"|| signCount.textContent ==="-" || signCount.textContent ==="/" || signCount.textContent ==="x"){
         document.querySelector(".numtwo").textContent = name2;
     }
     
