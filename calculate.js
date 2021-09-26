@@ -263,8 +263,8 @@ nummul.addEventListener('click',function(){
 
 const equaltoo = document.querySelector(".btnequals");
 equaltoo.addEventListener('click',function(){
-    arr[0] = Number.parseInt(count1.textContent);
-    arr[1] = Number.parseInt(count2.textContent);
+    arr[0] = Number(count1.textContent);
+    arr[1] = Number(count2.textContent);
     let ans = document.querySelector(".answer")
     if(signCount.textContent === "+"){
         ans.textContent = (arr[0]+arr[1]).toString();
