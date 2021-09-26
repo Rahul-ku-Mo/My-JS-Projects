@@ -2,6 +2,10 @@
   font-family: "Poppins", "sans-serif";
   box-sizing: border-box;
 }
+
+body{
+  display: inline-block;
+}
 .buttons {
   display: flex;
   flex-direction: column;
